@@ -27,3 +27,4 @@ previous_number = 0
 for number in range(10):
     sum = previous_number + number
     print('Current number:', number,'','Previous number:', previous_number,'', 'Sum:', sum)
+    previous_number = number
